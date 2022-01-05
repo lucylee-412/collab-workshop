@@ -14,7 +14,7 @@
   </head>
 
   <body>
-  <header>
+    <header>
       <h2>Covid-19</h2>
       <h3 id="bett">Better Prepared</h3>
       <nav>
@@ -22,7 +22,8 @@
         <h3><a href="resources.html">Resources</a></h3>
         <h3><a href="donate.html">Donate</a></h3>
       </nav>
-  </header>
+    </header>
+
     <form name=donationForm onsubmit="return validateForm()" method="post">
       <label for="fname">First name:</label><br>
       <input type="text" id="fname" name="fname"><br>
@@ -32,6 +33,16 @@
 
       <label for="email">Email address:</label><br>
       <input type="email" placeholder="yourname@example.com"><br>
+
+      <label for="email">Organization of choice:</label><br>
+      <input list="organizations">
+      <datalist id="organizations">
+        <option value="Organization 1">
+        <option value="Organization 2">
+        <option value="Organization 3">
+        <option value="Organization 4">
+        <option value="Organization 5">
+      </datalist><br>
 
       <label for="donation">Donation amount:</label><br>
       <input type="text" id="donation" name="donation"><br><br>
