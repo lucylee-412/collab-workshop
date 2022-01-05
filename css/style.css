@@ -2,14 +2,21 @@
 display: flex on header nav tag to align the navbar properly.
 text-decoration: none on the navbar links to get rid of the underline.
 */
+/*
+body{
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+}
 
 header {
-    margin: 0;
-    /*position: absolute;*/
-    /*width: 1440px;*/
+    margin: 0 auto;
     height: 146px;
     left: 0px;
     top: 0px;
+    
+    display: flex;
+    
 
     background: #88C6ED;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -65,14 +72,12 @@ header {
   }
 
   h3 {
-    position: absolute;
     width: 167px;
     height: 29px;
     left: 245px;
     top: 56px;
   
-    font-family: Roboto;
-    font-style: normal;
+    
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
@@ -85,20 +90,14 @@ header {
     height: 28px;
     left: 1059px;
     top: 59px;
-    
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    
-    /*color: #FFFFFF;*/
     color: black
   }
 
 
 img {
-    position: absolute;
     width: 62px;
     height: 56px;
     left: 720px;
@@ -108,17 +107,97 @@ img {
 }
 
 p {
-    position: absolute;
     width: 236px;
     height: 266px;
     left: 782px;
     top: 282px;
 
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
 
     color: #000000;
 }
+nav{
+  display: flex;
+}
+
+
+*/
+body{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  
+}
+Header{
+  display: flex;
+  text-align: center;
+  background-color: #88C6ED;
+  padding: 30px;
+  padding-left: 75px;
+  padding-right: 85px;
+  box-shadow: 0px 4px 4px grey ;
+  min-width: 500px;
+}
+
+nav{
+  display: flex;
+  gap: 25px;
+  
+  
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  
+
+}
+
+#bett{
+  margin-right: auto;
+  font-size: 24px;
+}
+
+Header h2{
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+body img{
+  height: 62px;
+  width: 56px;
+  
+}
+#precautions{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 100px;
+  justify-content: right;
+  margin-left: 100px;
+  padding-right: 38px;
+}
+p{
+  font-size: 24px;
+}
+#mission-statement h1{
+  margin-left: 181px;
+}
+span{
+  font-size: 24px;
+  color: #1984c7
+}
+#mission-statement{
+  margin-left: 60px;
+  max-width: 30%;
+}
+
