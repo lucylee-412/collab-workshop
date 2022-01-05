@@ -2,3 +2,123 @@
 display: flex on header nav tag to align the navbar properly.
 text-decoration: none on the navbar links to get rid of the underline.
 */
+
+header {
+    margin: 0;
+    /*position: absolute;*/
+    /*width: 1440px;*/
+    height: 146px;
+    left: 0px;
+    top: 0px;
+
+    background: #88C6ED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#mission-statement h1 {
+    position: absolute;
+    width: 307px;
+    height: 64px;
+    left: 181px;
+    top: 185px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+  }
+
+  #mission-statement p {
+    position: absolute;
+    width: 653px;
+    height: 632px;
+    left: 60px;
+    top: 280px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+  }
+  
+  h2 {
+    position: absolute;
+    width: 147px;
+    height: 42px;
+    left: 75px;
+    top: 49px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+    
+  }
+
+  h3 {
+    position: absolute;
+    width: 167px;
+    height: 29px;
+    left: 245px;
+    top: 56px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  a {
+    position: absolute;
+    width: 65px;
+    height: 28px;
+    left: 1059px;
+    top: 59px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+    /*color: #FFFFFF;*/
+    color: black
+  }
+
+
+img {
+    position: absolute;
+    width: 62px;
+    height: 56px;
+    left: 720px;
+    top: 213px;
+
+    background: url(COVID-Icons-20.png);
+}
+
+p {
+    position: absolute;
+    width: 236px;
+    height: 266px;
+    left: 782px;
+    top: 282px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
