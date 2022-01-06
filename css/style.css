@@ -6,6 +6,10 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #f8f8f8;
 }
+body img{
+  height: 62px;
+  width: 56px;
+}
 Header{
   display: flex;
   text-align: center;
@@ -15,6 +19,12 @@ Header{
   padding-right: 85px;
   box-shadow: 0px 4px 4px grey ;
   min-width: 500px;
+}
+Header h2{
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
 }
 nav{
   display: flex;
@@ -28,23 +38,23 @@ nav a{
   margin-right: auto;
   font-size: 24px;
 }
-Header h2{
-  margin-right: 10px;
-  font-weight: bold;
-  font-size: 36px;
-  color: white;
-}
 main{
   display: flex;
   justify-content: center;
   margin-top: 150px;
 }
-body img{
-  height: 62px;
-  width: 56px;
-}
 
 /* index.html */
+p{
+  font-size: 24px;
+}
+#about-covid {
+  margin-left: 60px;
+  max-width: 30%;
+}
+#about-covid h1{
+  margin-left: 181px;
+}
 #precautions{
   display: grid;
   grid-template-columns: 300px 300px;
@@ -53,20 +63,17 @@ body img{
   margin-left: 100px;
   padding-right: 38px;
 }
-p{
-  font-size: 24px;
+.subheading img {
+    margin-right:10px;
 }
-#about-covid h1{
-  margin-left: 181px;
+.subheading h2, .subheading img {
+    display:inline-block;
+    vertical-align:middle;
 }
-span{
+.subheading h2 {
   font-weight: bold;
-  font-size: 24px;
-  color: #1984c7
-}
-#about-covid{
-  margin-left: 60px;
-  max-width: 30%;
+  font-size: 28px;
+  color: #1984c7;
 }
 
 /* donate.html */
@@ -74,12 +81,23 @@ h2 {
   display: flex;
   justify-content: center;
 }
-#application{
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
-  line-height: 14pt;
+span {
+  border-style: groove;
 }
+#application {
+  display: flex;
+
+  justify-content: center;
+  line-height: 14pt;
+  margin-top: 25px;
+  padding: 25px;
+}
+input[type=text], input[type=email], input[list=organizations] {
+  width: 100%;
+  padding: 7px 48px 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+};
 
 /* color for the header = #88C6ED
 display: flex on header nav tag to align the navbar properly.
