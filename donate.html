@@ -25,31 +25,34 @@
       </nav>
     </header>
 
-    <form name=donationForm onsubmit="return validateForm()" method="post">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
+    <h2>Donation Form</h2>
+    <div id="application">
+      <form name=donationForm onsubmit="return validateForm()" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
 
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
 
-      <label for="email">Email address:</label><br>
-      <input type="email" placeholder="yourname@example.com"><br>
+        <label for="email">Email address:</label><br>
+        <input type="email" placeholder="yourname@example.com"><br><br>
 
-      <label for="email">Organization of choice:</label><br>
-      <input list="organizations">
-      <datalist id="organizations">
-        <option value="Organization 1">
-        <option value="Organization 2">
-        <option value="Organization 3">
-        <option value="Organization 4">
-        <option value="Organization 5">
-      </datalist><br>
+        <label for="email">Organization of choice:</label><br>
+        <input list="organizations">
+        <datalist id="organizations">
+          <option value="Organization 1">
+          <option value="Organization 2">
+          <option value="Organization 3">
+          <option value="Organization 4">
+          <option value="Organization 5">
+        </datalist><br><br>
 
-      <label for="donation">Donation amount:</label><br>
-      <input type="text" id="donation" name="donation"><br><br>
+        <label for="donation">Donation amount:</label><br>
+        <input type="text" id="donation" name="donation"><br><br>
 
-      <input type="submit" value="Donate">
-    </form>
+        <input type="submit" value="Donate">
+      </form>
+    </div>
 
     <script src="js/script.js"></script>
   </body>
