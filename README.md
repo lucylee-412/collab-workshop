@@ -1,4 +1,4 @@
-# COVID-19: Spread Fear, Not Facts
+# COVID-19: Spread Facts, Not Fear
 
 **Our cause:** spreading awareness on COVID-19, as well as compiling useful links to resources for further research and a donation form to help out charity organizations in one place.
 
