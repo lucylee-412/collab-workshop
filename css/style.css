@@ -1,52 +1,51 @@
 /* All pages */
-body{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:auto;
+body {
+  margin: auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #f8f8f8;
 }
-body img{
+body img {
   height: 62px;
   width: 56px;
 }
-p{
-  font-size: 20px;
-}
-
-Header{
-  display: flex;
-  text-align: center;
-  background-color: #88C6ED;
-  padding: 30px;
-  padding-left: 75px;
-  padding-right: 85px;
-  box-shadow: 0px 4px 4px grey ;
-  min-width: 500px;
-}
-Header h2{
-  margin-right: 10px;
-  font-weight: bold;
-  font-size: 36px;
-  color: white;
-}
-nav{
-  display: flex;
-  gap: 25px;
-}
-nav a{
-  text-decoration: none;
-  color: white;
-}
-#slogan{
-  margin-right: auto;
-  font-size: 24px;
-}
-
 main{
   display: flex;
   justify-content: center;
   margin-top: 80px;
+}
+p {
+  font-size: 20px;
+}
+
+/* header */
+header {
+  background-color: #88C6ED;
+  box-shadow: 0px 4px 4px grey;
+  display: flex;
+  min-width: 500px;
+  padding: 30px;
+  padding-left: 75px;
+  padding-right: 85px;
+  text-align: center;
+}
+header h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+nav {
+  display: flex;
+  gap: 25px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+#slogan{
+  color: #1984c7;
+  font-size: 24px;
+  margin-right: auto;
 }
 
 /* index.html */
@@ -57,7 +56,6 @@ main{
 #about-covid h1{
   color: #1984c7;
 }
-
 #precautions{
   display: grid;
   grid-template-columns: 300px 300px;
@@ -85,7 +83,6 @@ h2 {
   display: flex;
   justify-content: center;
 }
-
 span {
   border-style: inset;
   border-color: #88C6ED;
