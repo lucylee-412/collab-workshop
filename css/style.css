@@ -86,10 +86,17 @@ nav a:hover {
 }
 
 /* donate.html */
+#donate-body{
+  background-image: url("/images/—Pngtree—cute\ cartoon\ people\ wearing\ mask_6659690.png");
+  background-size: auto;
+  background-position:top;
+  
+}
 span {
   border-style: inset;
   border-color: #88C6ED;
   padding: 25px;
+  background-color: rgb(238, 231, 231);
 }
 #formTitle {
   color: #1984c7;
