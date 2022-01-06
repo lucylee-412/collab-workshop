@@ -83,14 +83,16 @@ nav a {
 }
 
 /* donate.html */
-h2 {
-  display: flex;
-  justify-content: center;
-}
 span {
   border-style: inset;
   border-color: #88C6ED;
   padding: 25px;
+}
+#formTitle {
+  color: #1984c7;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
 }
 #application {
   display: flex;
