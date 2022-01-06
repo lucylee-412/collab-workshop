@@ -3,6 +3,7 @@ body {
   margin: auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #f8f8f8;
+  font-size: 20px;
 }
 body img {
   height: 62px;
@@ -14,9 +15,6 @@ main {
   margin-top: 80px;
   margin-left: 10%;
   margin-right: 10%;
-}
-p {
-  font-size: 20px;
 }
 
 /* header */
@@ -83,6 +81,15 @@ nav a:hover {
   font-size: 28px;
   color: #1984c7;
   margin-bottom: 0px;
+}
+
+/* resources.html */
+#links {
+  margin-top: 80px;
+  margin-left: 10%;
+}
+#links h1 {
+  color: #1984c7;
 }
 
 /* donate.html */
