@@ -10,6 +10,10 @@ body img{
   height: 62px;
   width: 56px;
 }
+p{
+  font-size: 20px;
+}
+
 Header{
   display: flex;
   text-align: center;
@@ -45,15 +49,12 @@ main{
 }
 
 /* index.html */
-p{
-  font-size: 24px;
-}
 #about-covid {
   margin-left: 60px;
   max-width: 30%;
 }
 #about-covid h1{
-  margin-left: 181px;
+  color: #1984c7;
 }
 #precautions{
   display: grid;
@@ -82,15 +83,15 @@ h2 {
   justify-content: center;
 }
 span {
-  border-style: groove;
+  border-style: inset;
+  border-color: #88C6ED;
+  padding: 25px;
 }
 #application {
   display: flex;
-
   justify-content: center;
   line-height: 14pt;
-  margin-top: 25px;
-  padding: 25px;
+  margin-top: 5px;
 }
 input[type=text], input[type=email], input[list=organizations] {
   width: 100%;
