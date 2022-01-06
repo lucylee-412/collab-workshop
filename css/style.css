@@ -1,4 +1,4 @@
-/* color for the header = #88C6ED 
+/* color for the header = #88C6ED
 display: flex on header nav tag to align the navbar properly.
 text-decoration: none on the navbar links to get rid of the underline.
 */
@@ -14,9 +14,9 @@ header {
     height: 146px;
     left: 0px;
     top: 0px;
-    
+
     display: flex;
-    
+
 
     background: #88C6ED;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -53,22 +53,22 @@ header {
 
     color: #000000;
   }
-  
+
   h2 {
     position: absolute;
     width: 147px;
     height: 42px;
     left: 75px;
     top: 49px;
-    
+
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-    
+
     color: #FFFFFF;
-    
+
   }
 
   h3 {
@@ -76,8 +76,8 @@ header {
     height: 29px;
     left: 245px;
     top: 56px;
-  
-    
+
+
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
@@ -130,7 +130,7 @@ body{
   margin-top:auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #f8f8f8;
-  
+
 }
 Header{
   display: flex;
@@ -146,13 +146,13 @@ Header{
 nav{
   display: flex;
   gap: 25px;
-  
-  
+
+
 }
 nav a{
   text-decoration: none;
   color: white;
-  
+
 
 }
 
@@ -176,7 +176,7 @@ main{
 body img{
   height: 62px;
   width: 56px;
-  
+
 }
 #precautions{
   display: grid;
@@ -189,15 +189,14 @@ body img{
 p{
   font-size: 24px;
 }
-#mission-statement h1{
+#about-covid h1{
   margin-left: 181px;
 }
 span{
   font-size: 24px;
   color: #1984c7
 }
-#mission-statement{
+#about-covid{
   margin-left: 60px;
   max-width: 30%;
 }
-
