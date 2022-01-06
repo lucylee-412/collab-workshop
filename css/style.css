@@ -75,11 +75,19 @@ h2 {
   justify-content: center;
 }
 #application{
-  display: flex;
+  display: grid;
+  /* border-style: groove; */
   justify-content: center;
-  margin-top: 25px;
   line-height: 14pt;
+  margin-top: 25px;
+  padding: 25px;
 }
+input[type=text], input[type=email], input[list=organizations] {
+  width: 100%;
+  padding: 7px 48px 8px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+};
 
 /* color for the header = #88C6ED
 display: flex on header nav tag to align the navbar properly.
